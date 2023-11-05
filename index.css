@@ -1,0 +1,494 @@
+body{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 100%);
+    overflow: auto;
+}
+.shows {
+    display: block !important;
+}
+.navbar {
+    background-color:hsl(356, 100%, 66%);
+    background-image: url("images/bg-pattern-intro-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: right;
+    border-bottom-left-radius: 40px;
+    top: 0px;
+    text-align: center;
+    flex-wrap: nowrap;
+    position: static;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    margin-bottom:40px ;
+    justify-content: space-around;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+nav li{
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+}
+ul li{
+    margin-left: 10px;
+    color: hsl(0, 0%, 100%);
+    font-weight: bolder;
+}
+
+.Drop-down{
+    display: flex;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+
+.pics{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-weight: bolder;
+}
+
+.main-nav{
+    align-items: center;
+    text-align: center;
+
+}
+
+.sgn {
+    text-decoration: none;
+    color: hsl(356, 100%, 66%);
+    font-weight: 600;
+    font-size: 14px;
+    padding: 1.2vh;
+    
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    width: 100px;
+}
+.sgn:hover {
+    color:hsl(0, 0%, 100%) ;
+    background-color: hsl(355, 100%, 74%);
+}
+
+.brand{
+    margin: 20px;
+    width: 5vw;
+}
+.pics{
+    margin: 20px;
+    width: 3vw;
+    display: none;
+}
+
+hr{
+    display: none;
+}
+
+
+.simp{
+    width: 70%;
+    display: inline-block;
+    word-wrap: break-word;
+    
+    
+}
+.simp h1{
+    font-size: 30px;
+}
+.aud{
+    font-size: small;
+    color: hsl(354, 45%, 82%);
+}
+#btn-1 {
+    color:hsl(356, 100%, 66%);
+    background-color:hsl(0, 0%, 100%);
+    border: none;
+    padding: 1.5vh;
+    font-weight: 600;
+    font-size: 13px;
+    border-radius:20px;
+}
+
+#btn-1:hover{
+    color:hsl(0, 0%, 100%) ;
+    background-color: hsl(355, 100%, 74%);
+}
+
+#btn-2 {
+    padding: 1.5vh;
+    margin-bottom: 50px;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 20px;
+    border: hsl(0, 0%, 100%) solid;
+    background-color: hsl(356, 100%, 66%);
+    color:hsl(0, 0%, 100%);
+}
+
+#btn-2:hover {
+    color: hsl(356, 100%, 66%);
+    background-color: hsl(0, 0%, 100%);
+}
+
+.dark{
+    visibility: hidden;
+}
+
+.inner{
+    display:none;
+    position: absolute;
+    margin: 10px;
+    
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 7px;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+    list-style-type: none;
+}
+.inner a{
+    color:hsl(210, 8%, 15%) ;
+}
+.inner li {
+   
+    font-weight: 400;
+    padding: 0px;
+    float: none;
+   margin-top: 5px;
+    font-weight: 300;
+    font-size: 10px;
+    text-align: left;
+   
+}
+.first{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 80px;
+    color: hsl(237, 17%, 21%);
+    font-weight: 600;
+}
+
+.container{
+    width: 100%;
+    color: hsl(237, 17%, 21%);
+    display: flex;
+    
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container-item{
+    width: 50%;
+    margin: 10px;
+}
+.image-container{
+    
+    order: 2;
+}
+.text-container{
+    order: 1;
+    
+}
+
+.con-image{
+    width: 100%;
+}
+.jail{
+    text-align: left;
+    width: 80%;
+    font-weight: 300;
+    
+}
+.mid{
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 50px;
+}
+.mobile{
+    display: none;
+}
+.container-2{
+    background-color: hsl(237, 23%, 32%);
+    background-image: url("images/bg-pattern-circles.svg");
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: left top;
+    height: 33vw;
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+    width: 100%;
+    border-bottom-left-radius: 10%;
+    border-top-right-radius: 10%;
+    align-items: center;
+}
+.state{
+    font-weight: 600;
+}
+.Text-2{
+    text-align: left;
+    width: 60%;
+    font-weight: 300;
+}
+.main-img{
+    width: 40vw;
+}
+
+.container-3{
+    color: hsl(237, 17%, 21%);
+    align-items: center;
+    text-align: left;
+    display: flex;
+    
+    margin-top: 40px;
+    justify-content: space-between;
+    
+}
+.container3-item{
+    
+    width: 100%;
+}
+.open{
+    margin-top:30px ;
+}
+.Tooling{
+    margin-top: 30px;
+    width: 80%;
+}
+
+footer{
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+    border-top-right-radius: 40%;
+    justify-content: space-around;
+    background-color: hsl(237, 17%, 21%);
+    color: hsl(240, 2%, 79%);
+}
+.footer-content{
+    display: flex;
+   padding-top: 50px;
+   padding-bottom: 50px;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+.footer-item{
+    margin-top: 20px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    
+}
+.Pro-list{
+    display: block;
+    text-align: left;
+    margin-top: 20px;
+    align-items: center;
+    justify-items: center;
+}
+
+.Pro-list li{
+    padding: 7px;
+    font-weight: 300;
+}
+.Pro-list a{
+    color: hsl(0, 4%, 82%);
+}
+.Pro-list a:hover{
+    text-decoration: underline;
+}
+.footer-item p{
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+   
+}
+.hidden{
+    display: none !important;
+}
+
+@media only screen and (max-width:700px) {
+    .container-3{
+        display: block;
+        text-align: center;
+        align-items: center;
+       
+    }
+    .container3-item{
+        width: 100%;
+       
+    }
+    .Tooling{
+        width: 100%;
+        
+        padding-bottom: 20px;
+    }
+    .last-img{
+        width: 100%;
+    }
+    footer{
+        display: block;
+        width: 100%;
+        
+    }
+    .footer-content{
+        display: block;
+        align-items: center;
+       
+        
+    }
+    .Pro-list{
+        text-align: center;
+    }
+
+    .dropnav{
+        display: block !important;
+    }
+    
+
+    .Drop-down{
+         display: none;
+         background-color:hsl(0, 0%, 100%) ;
+         border-radius: 10px;
+         position: absolute;
+        justify-content: space-around;
+        align-items: center;
+         width: 50vw;
+        margin: 50px;
+    }
+    
+    .container{
+        display: block;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-item{
+        width: 100%;
+        text-align: center;
+    }
+    
+    
+    .con-image{
+        display: none;
+    }
+    .mobile{
+        display: block;
+
+    }
+    .jail{
+        width: 90%;
+        padding: 20px;
+        word-wrap: break-word;
+        text-align: center;
+    }
+    .mid{
+        text-align: center;
+    }
+    .container-2{
+        display: block;
+        height: 100%;
+        
+        border-bottom-left-radius: 20%;
+        border-top-right-radius: 20%;
+    }
+    .main-img{
+        width: 100vw;
+        text-align: center;
+        align-items: center;
+    }
+    .container2-item{
+        text-align: center;
+    }
+    .Text-2{
+        text-align: center;
+       word-wrap: break-word;
+        width: 100%;
+        
+        height: 20vh;
+        
+    }
+    hr{
+        display: block;
+        width: 80%;
+        border: 0.2px hsl(207, 13%, 34%) solid;
+    }
+    .pics{
+        display: block;
+        width: 8vw;
+    }
+    .brand{
+        width: 8vw;
+    }
+    .inner{
+        text-align: right;
+        background-color: hsl(206, 15%, 60%);
+        position: relative;
+       
+    }
+    .Inner li{
+        text-align: left;
+        
+        
+    }
+
+    .light{
+        visibility: hidden;
+    }
+
+    .dark{
+        visibility: visible;
+    }
+
+    .first{
+        font-size: 16px;
+    }
+    
+
+    nav{
+        justify-content: space-around;
+    }
+
+    ul li{
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    
+
+    ul{
+        display: block;
+        list-style: none;
+        padding: 0;
+        
+    }
+    
+    ul li{
+        padding-bottom: 8px;
+        color: hsl(207, 13%, 34%);
+        text-align: center;
+    }
+    a{
+        color: hsl(207, 13%, 34%);
+        
+    }
+
+    
+    
+
+    
+}
+

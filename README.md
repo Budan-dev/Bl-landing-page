@@ -1,5 +1,5 @@
 # Frontend Mentor - Blogr landing page solution
-
+View the Challenge at [https://www.frontendmentor.io/solutions/bi-landingpage-9bhw4LyvPW]
 
 This is a solution to the [Blogr landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
@@ -18,7 +18,7 @@ This is a solution to the [Blogr landing page challenge on Frontend Mentor](http
 
 ### Links
 
-- Live Site URL: [Add live site URL here]()
+- Live Site URL: [ https://budan-dev.github.io/Bl-landing-page/]()
 
 
 
